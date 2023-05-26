@@ -400,6 +400,16 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
 /*ACA COMIENZA LA SECCION SERVICIOS*/
 .main {
     text-align: center;
@@ -683,6 +693,13 @@ footer {
         gap: 20px;
         align-items: center;
     }
+}
+
+@media screen and (max-width:425px){
+.descripcion{
+    width: 90%;
+    font-size: 15px;
+}    
 }
 
 /* 
