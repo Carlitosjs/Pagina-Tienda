@@ -164,6 +164,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: auto;
 }
 
 .container-1 h2 {
@@ -243,11 +244,11 @@ body {
 
 @media screen and (max-width:425px) {
     .Typewritting {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .container-3 {
-        width: 100%;
+        width: 95%;
     }
 
     .img-container-3 {
@@ -264,7 +265,7 @@ body {
         margin-top: 26%;
     }
 
-    .video-documental video {
+    .video-documental video{
         width: 100%;
     }
 
@@ -642,6 +643,11 @@ footer {
         font-size: 18px;
         margin-top: 50px;
     }
+
+    .descripcion p {
+        color: white;
+    }
+
 
     .footer {
         position: static;
